@@ -1,0 +1,290 @@
+Use Case Diagram merupakan salah satu jenis diagram dalam UML (Unified Modeling Language) yang digunakan untuk menggambarkan hubungan dan interaksi antara aktor (pengguna) dengan sistem yang sedang dirancang atau dikembangkan.
+
+Use Case Diagram menjelaskan berbagai fungsi atau layanan yang disediakan oleh sebuah sistem dan menunjukkan siapa saja yang dapat menggunakan fungsi tersebut.
+
+Secara sederhana, Use Case Diagram menjawab tiga pertanyaan utama:
+
+Siapa yang menggunakan sistem?
+
+Apa saja yang dapat dilakukan oleh pengguna di dalam sistem?
+
+Bagaimana hubungan antara pengguna dengan fungsi-fungsi yang tersedia di dalam sistem?
+
+Use Case Diagram biasanya dibuat pada tahap analisis dan perancangan sistem. Tujuannya agar pengembang mengetahui kebutuhan sistem berdasarkan sudut pandang pengguna sebelum sistem mulai dibuat menggunakan bahasa pemrograman.
+
+Contoh:
+
+Pada sistem informasi perpustakaan, terdapat beberapa aktivitas yang dapat dilakukan oleh pengguna, seperti:
+
+Admin melakukan login.
+
+Admin mengelola data buku.
+
+Admin mengelola data anggota.
+
+Anggota melihat daftar buku.
+
+Anggota melakukan peminjaman buku.
+
+Anggota melakukan pengembalian buku.
+
+Seluruh aktivitas tersebut dapat digambarkan menggunakan Use Case Diagram.
+
+2. Tujuan dan Fungsi Use Case Diagram
+Use Case Diagram memiliki beberapa tujuan penting dalam proses pengembangan sistem.
+
+A. Mengidentifikasi kebutuhan sistem
+Use Case Diagram digunakan untuk mengetahui fitur atau fungsi apa saja yang harus tersedia di dalam sistem.
+
+Misalnya, dalam sistem penjualan online dibutuhkan fitur login, registrasi, melihat produk, memasukkan produk ke keranjang, melakukan pembayaran, dan melihat status pesanan.
+
+Dengan demikian, pengembang dapat mengetahui kebutuhan fungsional yang harus dibuat.
+
+B. Mengidentifikasi aktor yang terlibat
+Use Case Diagram membantu menentukan siapa saja pihak yang akan berinteraksi dengan sistem.
+
+Contohnya:
+
+Admin.
+
+Pelanggan.
+
+Kasir.
+
+Manajer.
+
+Sistem pembayaran eksternal.
+
+Setiap aktor memiliki peran dan hak akses yang berbeda.
+
+C. Menggambarkan interaksi pengguna dengan sistem
+Diagram ini menjelaskan bagaimana pengguna berinteraksi dengan fitur yang tersedia.
+
+Contohnya, pelanggan dapat melakukan login untuk masuk ke sistem, kemudian memilih produk dan melakukan pembelian.
+
+D. Membantu proses perancangan sistem
+Use Case Diagram menjadi dasar bagi pengembang untuk merancang sistem lebih lanjut, seperti membuat Activity Diagram, Sequence Diagram, Class Diagram, dan rancangan database.
+
+E. Mempermudah komunikasi
+Use Case Diagram dapat digunakan sebagai media komunikasi antara programmer, analis sistem, klien, dan pengguna agar memiliki pemahaman yang sama mengenai sistem yang akan dibuat.
+
+3. Komponen-Komponen Use Case Diagram
+Dalam Use Case Diagram terdapat beberapa komponen utama yang memiliki fungsi dan simbol berbeda.
+
+A. Actor (Aktor)
+UML (Unified Modeling Language). I like to improve my software… | by Leela Prasad | Medium
+ 
+Pengertian:
+
+Actor adalah pihak yang berinteraksi secara langsung dengan sistem untuk menjalankan suatu fungsi atau mendapatkan layanan dari sistem.
+
+Aktor tidak selalu berupa manusia, tetapi dapat berupa organisasi, perangkat, atau sistem lain yang berinteraksi dengan sistem utama.
+
+Jenis-jenis aktor:
+
+1. Primary Actor (Aktor Utama)
+
+Aktor yang memiliki tujuan utama dalam menggunakan sistem.
+
+Contoh: Pelanggan yang melakukan pembelian barang.
+
+2. Secondary Actor (Aktor Pendukung)
+
+Aktor atau sistem eksternal yang membantu sistem utama menjalankan suatu proses.
+
+Contoh: Sistem pembayaran eksternal yang memproses pembayaran pelanggan.
+
+Contoh aktor dalam sistem:
+
+Admin.
+
+Pelanggan.
+
+Kasir.
+
+Petugas perpustakaan.
+
+Manajer.
+
+B. Use Case
+ellipse shape symbol, black and white vector outline illustration
+ 
+Pengertian:
+
+Use Case adalah fungsi, layanan, atau aktivitas yang disediakan oleh sistem dan dapat dilakukan oleh aktor.
+
+Use Case biasanya digambarkan menggunakan bentuk oval atau elips.
+
+Nama Use Case sebaiknya menggunakan kata kerja yang menjelaskan aktivitas yang dilakukan.
+
+Contoh:
+
+Login.
+
+Registrasi akun.
+
+Mengelola data pengguna.
+
+Menambah data buku.
+
+Menghapus data buku.
+
+Melakukan transaksi.
+
+Mencetak laporan.
+
+Setiap Use Case menggambarkan suatu tujuan atau fungsi yang ingin dicapai oleh aktor melalui sistem.
+
+C. System Boundary (Batas Sistem)
+Requirement Analysis Techniques
+ 
+Pengertian:
+
+System Boundary adalah batas yang menunjukkan ruang lingkup sistem yang sedang dirancang.
+
+System Boundary digambarkan menggunakan persegi panjang yang mengelilingi seluruh Use Case.
+
+Fungsinya adalah membedakan fungsi yang termasuk ke dalam sistem dengan pihak luar yang berinteraksi dengan sistem.
+
+Contoh:
+
+Jika kita membuat Sistem Informasi Perpustakaan, maka:
+
+Login merupakan bagian dari sistem.
+
+Mengelola buku merupakan bagian dari sistem.
+
+Meminjam buku merupakan bagian dari sistem.
+
+Admin berada di luar batas sistem karena merupakan aktor.
+
+D. Association (Asosiasi)
+Diagrama de casos de uso: estructura y función - IONOS
+ 
+Pengertian:
+
+Association adalah hubungan yang menunjukkan interaksi antara aktor dengan Use Case.
+
+Association digambarkan menggunakan garis lurus yang menghubungkan aktor dengan Use Case.
+
+Contoh:
+
+Admin terhubung dengan Use Case Login karena admin dapat melakukan proses login ke dalam sistem.
+
+Contoh lainnya:
+
+Pelanggan — Melihat Produk.
+
+Pelanggan — Melakukan Pembelian.
+
+Admin — Mengelola Data Produk.
+
+E. Include Relationship
+Include Relationship Between Use Cases
+ 
+Pengertian:
+
+Include merupakan hubungan yang menunjukkan bahwa suatu Use Case selalu menyertakan perilaku dari Use Case lainnya.
+
+Include digunakan ketika terdapat aktivitas yang wajib dijalankan sebagai bagian dari proses Use Case utama.
+
+Simbolnya berupa garis putus-putus dengan panah terbuka dan label <<include>>.
+
+Contoh:
+
+Pada sistem pembelian online:
+
+Use Case Melakukan Pembelian.
+
+Use Case Menghitung Total Pembayaran.
+
+Ketika proses pembelian dilakukan, sistem harus menghitung total pembayaran.
+
+Maka hubungan yang digunakan adalah:
+
+Melakukan Pembelian <<include>> Menghitung Total Pembayaran
+
+Artinya, proses menghitung total pembayaran selalu menjadi bagian dari proses pembelian.
+
+F. Extend Relationship
+PPT - Requirements Elicitation and Use Case Diagrams PowerPoint Presentation - ID:1155566
+ 
+Pengertian:
+
+Extend merupakan hubungan yang menunjukkan adanya perilaku tambahan pada suatu Use Case yang hanya dijalankan ketika kondisi tertentu terpenuhi.
+
+Extend digunakan untuk menggambarkan fitur tambahan yang tidak selalu harus dijalankan dalam proses utama.
+
+Simbolnya berupa garis putus-putus dengan panah terbuka dan label <<extend>>.
+
+Contoh:
+
+Pada sistem login:
+
+Use Case Login.
+
+Use Case Lupa Password.
+
+Fitur Lupa Password merupakan fitur tambahan yang dapat digunakan ketika pengguna lupa kata sandinya.
+
+Maka hubungan yang digunakan adalah:
+
+Lupa Password <<extend>> Login
+
+Artinya, fitur Lupa Password dapat memperluas proses login ketika kondisi tertentu terjadi.
+
+G. Generalization (Generalisasi)
+Mengenal Use Case dan Activity Diagram | by Carmel JH Silalahi | Medium
+ 
+Pengertian:
+
+Generalization adalah hubungan pewarisan antara aktor dengan aktor lain atau antara Use Case dengan Use Case lain.
+
+Generalization digunakan ketika terdapat aktor atau Use Case yang memiliki kesamaan fungsi, tetapi salah satunya memiliki kemampuan yang lebih khusus.
+
+Contoh:
+
+Dalam sistem akademik:
+
+Pengguna merupakan aktor umum.
+
+Admin merupakan aktor khusus.
+
+Mahasiswa merupakan aktor khusus.
+
+Admin dan Mahasiswa dapat memiliki karakteristik umum sebagai pengguna sistem, tetapi memiliki hak akses yang berbeda.
+
+4. Perbedaan Include, Extend, dan Generalization
+Ketiga hubungan ini sering kali membingungkan bagi pemula.
+
+Jenis hubungan
+
+Fungsi
+
+Karakteristik
+
+Include
+
+Menyertakan proses lain
+
+Wajib dilakukan sebagai bagian proses utama
+
+Extend
+
+Menambahkan proses lain
+
+Berjalan berdasarkan kondisi tertentu
+
+Generalization
+
+Menunjukkan pewarisan
+
+Memiliki hubungan umum dan khusus
+
+Cara mudah mengingatnya:
+
+Include = Proses wajib.
+
+Extend = Proses tambahan atau opsional berdasarkan kondisi.
+
+Generalization = Hubungan pewarisan.
