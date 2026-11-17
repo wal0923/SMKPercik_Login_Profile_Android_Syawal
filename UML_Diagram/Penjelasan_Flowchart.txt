@@ -1,0 +1,247 @@
+Penjelasan Flowchart Secara Detail
+1. Pengertian Flowchart
+Flowchart atau diagram alir adalah sebuah diagram yang digunakan untuk menggambarkan urutan langkah-langkah, proses, atau alur kerja suatu kegiatan secara visual menggunakan simbol-simbol tertentu yang saling dihubungkan dengan garis panah.
+
+Flowchart berfungsi untuk menjelaskan bagaimana suatu proses berjalan mulai dari awal, tahapan proses, pengambilan keputusan, hingga proses berakhir.
+
+Flowchart dapat digunakan untuk menggambarkan berbagai macam proses, seperti:
+
+Alur kerja suatu sistem informasi.
+
+Proses login pada aplikasi.
+
+Proses transaksi penjualan.
+
+Proses pendaftaran mahasiswa.
+
+Proses pembayaran.
+
+Algoritma dalam pemrograman.
+
+Dengan adanya Flowchart, seseorang dapat memahami suatu proses dengan lebih mudah tanpa harus membaca penjelasan panjang dalam bentuk teks.
+
+Contoh sederhana:
+
+Pada proses login sebuah aplikasi, pengguna harus memasukkan username dan password. Kemudian sistem akan memeriksa apakah data yang dimasukkan benar atau salah.
+
+Jika benar, pengguna akan diarahkan ke halaman utama.
+
+Jika salah, sistem akan menampilkan pesan kesalahan dan meminta pengguna memasukkan data kembali.
+
+Proses tersebut dapat digambarkan menggunakan Flowchart agar urutan aktivitasnya lebih mudah dipahami.
+
+2. Tujuan dan Fungsi Flowchart
+Flowchart memiliki beberapa tujuan dan fungsi dalam menggambarkan suatu proses.
+
+A. Menggambarkan alur proses
+Flowchart digunakan untuk menjelaskan urutan kegiatan dari awal hingga akhir secara sistematis.
+
+Contohnya, pada proses pembelian barang, Flowchart menggambarkan proses mulai dari memilih barang, memasukkan barang ke keranjang, melakukan pembayaran, hingga transaksi selesai.
+
+B. Mempermudah memahami suatu proses
+Dengan menggunakan simbol dan garis panah, proses yang kompleks dapat disajikan dalam bentuk visual sehingga lebih mudah dipahami.
+
+C. Membantu menemukan kesalahan
+Flowchart dapat membantu mengidentifikasi kesalahan atau tahapan proses yang tidak sesuai.
+
+Contohnya, jika terdapat langkah yang terlewat dalam proses transaksi, kesalahan tersebut dapat diketahui melalui pemeriksaan diagram.
+
+D. Membantu proses perancangan sistem
+Flowchart dapat digunakan sebelum sistem dibuat untuk merencanakan bagaimana proses dan alur kerja sistem akan berjalan.
+
+E. Mempermudah komunikasi
+Flowchart menjadi media komunikasi antara programmer, analis sistem, pengguna, dan pihak lain yang terlibat dalam pengembangan sistem.
+
+F. Menjadi pedoman dalam pemrograman
+Flowchart dapat digunakan sebagai dasar untuk menyusun algoritma dan menulis kode program.
+
+3. Simbol-Simbol Flowchart dan Fungsinya
+Dalam Flowchart terdapat berbagai simbol yang mempunyai fungsi masing-masing. Setiap simbol digunakan untuk menggambarkan tahapan atau jenis proses tertentu.
+
+A. Terminator (Start/End)
+26 Flowchart Symbols and Meanings [+ Template] | FigJam
+ 
+Pengertian:
+
+Terminator merupakan simbol yang digunakan untuk menunjukkan awal (Start) dan akhir (End) dari suatu proses.
+
+Simbol ini biasanya berbentuk oval atau persegi panjang dengan sudut yang sangat membulat.
+
+Fungsinya adalah memberikan tanda di mana proses dimulai dan di mana proses berakhir.
+
+Contoh:
+
+Start: Proses dimulai.
+
+End: Proses selesai.
+
+B. Process (Proses)
+10 Macam Simbol Flowchart, Jenis Beserta Contohnya
+ 
+Pengertian:
+
+Process merupakan simbol yang digunakan untuk menggambarkan suatu kegiatan, tindakan, atau proses yang dilakukan dalam suatu sistem.
+
+Simbol ini berbentuk persegi panjang.
+
+Biasanya digunakan untuk menggambarkan aktivitas yang dilakukan oleh pengguna atau sistem.
+
+Contoh:
+
+Menghitung total harga.
+
+Memasukkan data pengguna.
+
+Menyimpan data.
+
+Memproses pembayaran.
+
+Memeriksa data transaksi.
+
+C. Input/Output (Masukan/Keluaran)
+FlowChart: What Is It, Templates and Symbols - Venngage
+ 
+Pengertian:
+
+Input/Output merupakan simbol yang digunakan untuk menggambarkan proses memasukkan data (input) atau menampilkan hasil data (output).
+
+Simbol ini berbentuk jajar genjang atau parallelogram.
+
+Contoh Input:
+
+Memasukkan username.
+
+Memasukkan password.
+
+Memasukkan jumlah barang.
+
+Memasukkan data pelanggan.
+
+Contoh Output:
+
+Menampilkan hasil perhitungan.
+
+Menampilkan pesan berhasil.
+
+Menampilkan laporan.
+
+Menampilkan informasi transaksi.
+
+D. Decision (Keputusan)
+Introduction Code Visual to Flowchart is a code
+ 
+Pengertian:
+
+Decision merupakan simbol yang digunakan untuk menggambarkan suatu kondisi atau pengambilan keputusan yang dapat menghasilkan beberapa kemungkinan jalur proses.
+
+Simbol ini berbentuk belah ketupat atau diamond.
+
+Biasanya memiliki dua cabang, yaitu:
+
+Ya (Yes/True).
+
+Tidak (No/False).
+
+Contoh:
+
+Apakah username dan password benar?
+
+Jika Ya, pengguna masuk ke halaman utama.
+
+Jika Tidak, sistem menampilkan pesan kesalahan.
+
+E. Flowline (Garis Alir)
+Flowchart Diagrams: A Practical Guide to Every Symbol and When to Use It — Palakorn Voramongkol
+ 
+Pengertian:
+
+Flowline merupakan garis panah yang digunakan untuk menghubungkan satu simbol dengan simbol lainnya.
+
+Fungsinya adalah menunjukkan arah dan urutan proses yang harus dijalankan.
+
+Contoh:
+
+Start → Input Data → Proses Data → Output → End.
+
+F. Connector (Penghubung)
+26 Flowchart Symbols and Meanings [+ Template] | FigJam
+ 
+Pengertian:
+
+Connector merupakan simbol yang digunakan untuk menghubungkan alur proses yang terpisah pada halaman atau bagian diagram yang sama.
+
+Simbol ini biasanya berbentuk lingkaran kecil.
+
+Fungsinya adalah menghindari garis alir yang terlalu panjang atau saling berpotongan.
+
+Contoh:
+
+Ketika diagram terlalu panjang, alur dapat dihubungkan menggunakan connector dengan kode atau huruf yang sama.
+
+G. Off-page Connector (Penghubung Antarhalaman)
+Flowchart Diagrams: A Practical Guide to Every Symbol and When to Use It — Palakorn Voramongkol
+ 
+Pengertian:
+
+Off-page Connector merupakan simbol yang digunakan untuk menghubungkan alur proses ke halaman diagram yang berbeda.
+
+Simbol ini biasanya berbentuk segi lima seperti tanda panah ke bawah.
+
+Digunakan ketika Flowchart memiliki banyak proses sehingga harus dibagi ke beberapa halaman.
+
+H. Predefined Process (Subproses)
+26 Flowchart Symbols and Meanings [+ Template] | FigJam
+ 
+Pengertian:
+
+Predefined Process merupakan simbol yang digunakan untuk menunjukkan proses yang sudah didefinisikan atau dijelaskan secara terpisah.
+
+Simbol ini berbentuk persegi panjang dengan dua garis vertikal tambahan di bagian sisi.
+
+Contoh:
+
+Proses autentikasi pengguna.
+
+Proses perhitungan pajak.
+
+Proses validasi data.
+
+Proses pencetakan laporan.
+
+I. Document (Dokumen)
+A Guide to Flowchart Symbols & Meanings
+ 
+Pengertian:
+
+Document merupakan simbol yang digunakan untuk menunjukkan dokumen atau laporan yang dihasilkan dari suatu proses.
+
+Simbol ini berbentuk persegi panjang dengan bagian bawah bergelombang.
+
+Contoh:
+
+Laporan transaksi.
+
+Bukti pembayaran.
+
+Faktur penjualan.
+
+Laporan data pelanggan.
+
+J. Database (Penyimpanan Data)
+Um Gia dos Símbolos dos Fluxogramas e dos Seus Significados
+ 
+Pengertian:
+
+Database merupakan simbol yang digunakan untuk menggambarkan tempat penyimpanan data secara terstruktur.
+
+Simbol ini biasanya berbentuk tabung atau silinder.
+
+Contoh:
+
+Database pengguna.
+
+Database produk.
+
+Database transaksi.
+
+Database mahasiswa.
