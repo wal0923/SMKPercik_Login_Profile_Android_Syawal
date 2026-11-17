@@ -1,0 +1,276 @@
+Activity Diagram adalah salah satu jenis diagram dalam UML (Unified Modeling Language) yang digunakan untuk menggambarkan alur aktivitas, proses kerja, atau urutan kegiatan yang terjadi di dalam suatu sistem.
+
+Activity Diagram menjelaskan bagaimana suatu proses dimulai, aktivitas apa saja yang dilakukan, keputusan apa yang harus diambil, serta bagaimana proses tersebut berakhir.
+
+Dengan kata lain, Activity Diagram digunakan untuk menggambarkan alur kerja (workflow) dari suatu sistem atau proses bisnis secara visual dan berurutan.
+
+Activity Diagram biasanya digunakan dalam tahap analisis dan perancangan sistem untuk membantu pengembang memahami proses yang terjadi di dalam sistem.
+
+Contoh sederhana:
+
+Pada sistem login, terdapat beberapa aktivitas yang dilakukan, yaitu:
+
+Pengguna membuka halaman login.
+
+Pengguna memasukkan username dan password.
+
+Sistem memeriksa data login.
+
+Jika data benar, pengguna berhasil masuk ke halaman utama.
+
+Jika data salah, sistem menampilkan pesan kesalahan.
+
+Pengguna diminta memasukkan kembali username dan password.
+
+Seluruh proses tersebut dapat digambarkan menggunakan Activity Diagram.
+
+2. Tujuan dan Fungsi Activity Diagram
+Activity Diagram memiliki beberapa tujuan dan fungsi dalam pengembangan sistem, di antaranya:
+
+A. Menggambarkan alur proses sistem
+Activity Diagram digunakan untuk menjelaskan urutan aktivitas yang terjadi dalam suatu sistem dari awal hingga akhir.
+
+Contohnya, proses pemesanan barang dimulai dari pelanggan memilih produk, memasukkan produk ke keranjang, melakukan pembayaran, hingga pesanan diproses.
+
+B. Menjelaskan aktivitas pengguna dan sistem
+Diagram ini dapat menunjukkan aktivitas yang dilakukan oleh pengguna maupun aktivitas yang dilakukan secara otomatis oleh sistem.
+
+Contohnya:
+
+Pengguna memasukkan username dan password.
+
+Sistem memvalidasi data login.
+
+Pengguna memilih produk.
+
+Sistem menghitung total pembayaran.
+
+C. Menggambarkan proses pengambilan keputusan
+Activity Diagram dapat menunjukkan kondisi atau keputusan yang memengaruhi jalannya suatu proses.
+
+Contohnya, ketika pengguna melakukan login:
+
+Jika username dan password benar, pengguna masuk ke sistem.
+
+Jika username dan password salah, pengguna harus mengulangi proses login.
+
+D. Menggambarkan proses yang berjalan secara bersamaan
+Activity Diagram dapat digunakan untuk menunjukkan beberapa aktivitas yang berlangsung secara paralel atau bersamaan.
+
+Contohnya, setelah pembayaran berhasil, sistem dapat memperbarui status pesanan dan mengirimkan notifikasi secara bersamaan.
+
+E. Mempermudah analisis dan perancangan sistem
+Activity Diagram membantu analis dan pengembang memahami alur kerja sistem sebelum proses implementasi dilakukan.
+
+3. Komponen-Komponen Activity Diagram
+Dalam Activity Diagram terdapat beberapa simbol yang memiliki fungsi masing-masing.
+
+A. Initial Node (Titik Awal)
+Simbol Pada Activity Diagram - Printables Templates Free
+ 
+Pengertian:
+
+Initial Node adalah simbol yang digunakan untuk menunjukkan titik awal atau dimulainya suatu aktivitas dalam sistem.
+
+Simbol ini digambarkan dengan lingkaran berwarna hitam penuh.
+
+Fungsinya adalah memberikan tanda bahwa suatu proses dimulai dari titik tersebut.
+
+Contoh:
+
+Pada sistem login, proses dimulai ketika pengguna membuka halaman login.
+
+B. Activity (Aktivitas)
+What Is Activity Diagram
+ 
+Pengertian:
+
+Activity adalah simbol yang digunakan untuk menggambarkan suatu pekerjaan atau aktivitas yang dilakukan oleh pengguna maupun sistem.
+
+Activity digambarkan menggunakan persegi panjang dengan sudut melengkung.
+
+Setiap aktivitas biasanya ditulis menggunakan kata kerja.
+
+Contoh:
+
+Membuka halaman login.
+
+Memasukkan username.
+
+Memasukkan password.
+
+Memeriksa data pengguna.
+
+Menampilkan halaman utama.
+
+Menyimpan data transaksi.
+
+C. Control Flow (Alur Aktivitas)
+Activity Diagram Adalah: Pengertian dan Fungsi dalam UML
+ 
+Pengertian:
+
+Control Flow adalah garis panah yang menunjukkan arah perpindahan dari satu aktivitas ke aktivitas lainnya.
+
+Control Flow digunakan untuk menghubungkan aktivitas sehingga membentuk alur proses yang berurutan.
+
+Contoh:
+
+Membuka halaman login → Memasukkan username dan password → Memeriksa data login.
+
+Panah menunjukkan aktivitas mana yang harus dilakukan berikutnya.
+
+D. Decision Node (Percabangan Keputusan)
+Diagrama de atividades uml - apresentação | PPT
+ 
+Pengertian:
+
+Decision Node adalah simbol yang digunakan untuk menggambarkan suatu kondisi atau pengambilan keputusan dalam proses aktivitas.
+
+Decision Node digambarkan menggunakan bentuk belah ketupat (diamond).
+
+Biasanya simbol ini memiliki satu jalur masuk dan dua atau lebih jalur keluar yang diberi kondisi.
+
+Contoh:
+
+Pada proses login terdapat pertanyaan: Apakah username dan password benar?
+
+Jika Ya (True), pengguna masuk ke halaman utama.
+
+Jika Tidak (False), sistem menampilkan pesan kesalahan.
+
+Dengan demikian, jalur aktivitas akan ditentukan berdasarkan hasil keputusan.
+
+E. Merge Node (Penggabungan Percabangan)
+Diagrama de atividades uml - apresentação | PPT
+ 
+Pengertian:
+
+Merge Node adalah simbol yang digunakan untuk menggabungkan kembali beberapa jalur aktivitas yang sebelumnya mengalami percabangan.
+
+Merge Node juga digambarkan menggunakan bentuk belah ketupat.
+
+Perbedaannya dengan Decision Node terletak pada fungsinya:
+
+Decision Node digunakan untuk memisahkan alur berdasarkan kondisi.
+
+Merge Node digunakan untuk menggabungkan kembali alur yang berbeda.
+
+Contoh:
+
+Setelah pengguna memilih metode pembayaran melalui transfer bank atau e-wallet, kedua jalur tersebut dapat digabungkan kembali pada aktivitas menunggu konfirmasi pembayaran.
+
+F. Fork Node (Percabangan Paralel)
+UML Activity Diagram Tutorial - Software Ideas Modeler
+ 
+Pengertian:
+
+Fork Node adalah simbol yang digunakan untuk membagi satu alur aktivitas menjadi beberapa aktivitas yang dapat berjalan secara bersamaan.
+
+Fork Node biasanya digambarkan menggunakan garis tebal horizontal atau vertikal.
+
+Contoh:
+
+Setelah pelanggan berhasil melakukan pembayaran:
+
+Sistem memperbarui status pesanan.
+
+Sistem mengirimkan notifikasi pembayaran.
+
+Kedua aktivitas tersebut dapat dilakukan secara paralel.
+
+G. Join Node (Penggabungan Aktivitas Paralel)
+UML Activity Diagram Tutorial - Software Ideas Modeler
+ 
+Pengertian:
+
+Join Node adalah simbol yang digunakan untuk menggabungkan beberapa aktivitas yang berjalan secara bersamaan menjadi satu alur aktivitas.
+
+Join Node digambarkan menggunakan garis tebal, sama seperti Fork Node.
+
+Perbedaannya:
+
+Fork Node membagi satu alur menjadi beberapa aktivitas paralel.
+
+Join Node menggabungkan beberapa aktivitas paralel menjadi satu alur.
+
+Contoh:
+
+Setelah sistem memperbarui status pesanan dan mengirimkan notifikasi, kedua aktivitas tersebut bergabung sebelum proses berikutnya dilakukan.
+
+H. Activity Final Node (Titik Akhir Aktivitas)
+Simbol Activity Diagram Dan Fungsinya - Printables Templates Free
+ 
+Pengertian:
+
+Activity Final Node adalah simbol yang digunakan untuk menunjukkan bahwa seluruh aktivitas dalam suatu proses telah selesai.
+
+Simbol ini digambarkan dengan lingkaran hitam yang dikelilingi lingkaran luar.
+
+Contoh:
+
+Pada sistem login, proses berakhir setelah pengguna berhasil masuk ke halaman utama atau setelah proses dibatalkan.
+
+I. Swimlane (Pembagian Tanggung Jawab)
+What is Activity Diagram - ArchiMetric
+ 
+Pengertian:
+
+Swimlane adalah bagian dalam Activity Diagram yang digunakan untuk membagi aktivitas berdasarkan pihak atau bagian yang bertanggung jawab menjalankan aktivitas tersebut.
+
+Swimlane biasanya digambarkan menggunakan kolom atau baris yang memiliki nama aktor atau bagian tertentu.
+
+Contoh:
+
+Pada sistem peminjaman buku terdapat dua swimlane:
+
+Anggota.
+
+Sistem Perpustakaan.
+
+Aktivitas memasukkan data peminjaman dilakukan oleh anggota, sedangkan aktivitas memvalidasi peminjaman dilakukan oleh sistem.
+
+Swimlane membantu memperjelas siapa yang bertanggung jawab atas setiap aktivitas.
+
+4. Perbedaan Decision, Merge, Fork, dan Join
+Keempat simbol ini sering kali membingungkan karena memiliki bentuk yang hampir sama.
+
+Simbol
+
+Fungsi
+
+Kegunaan
+
+Decision
+
+Memisahkan alur
+
+Berdasarkan kondisi
+
+Merge
+
+Menggabungkan alur
+
+Menyatukan jalur alternatif
+
+Fork
+
+Membagi alur
+
+Menjalankan aktivitas bersamaan
+
+Join
+
+Menggabungkan alur
+
+Menunggu aktivitas paralel selesai
+
+Cara mudah mengingatnya:
+
+Decision = Memilih jalur.
+
+Merge = Menyatukan jalur pilihan.
+
+Fork = Menjalankan beberapa aktivitas sekaligus.
+
+Join = Menyatukan aktivitas yang berjalan bersamaan
